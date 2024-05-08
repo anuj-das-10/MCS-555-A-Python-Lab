@@ -1,4 +1,4 @@
-__length__ = lambda L: 0 if L == [] else 1 + __length__(L[1:])
+# __length__ = lambda L: 0 if L == [] else 1 + __length__(L[1:])
 
 def length(L):
     if L == []:
@@ -8,4 +8,5 @@ def length(L):
     
 
 mylist = ["ABC", "BCD", 1, 2, 3, 4, 5, True, 7.5] 
-print(__length__(mylist)) 
+print(f"Given List:  {mylist}") 
+print(f"The length of the given list is {length(mylist)}")

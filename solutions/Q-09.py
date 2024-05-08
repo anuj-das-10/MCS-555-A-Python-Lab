@@ -6,9 +6,10 @@ def fibonacci(n):
     else: 
         return fibonacci(n-1) + fibonacci(n-2)
     
-terms = 8
 series = []
+terms = int(input("Enter the number of terms:  "))
+
 for i in range(1, terms + 1):
     series.append(fibonacci(i))
 
-print(series)
+print(f"Fibonacci Series:  {series}")

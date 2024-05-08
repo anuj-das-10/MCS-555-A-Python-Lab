@@ -16,4 +16,6 @@ def getPrimeUpto(n):
     return primes
 
 
-print(getPrimeUpto(50))
+n = int(input("Enter the value of n:  "))
+
+print(f"All the prime numbers upto {n} is:  {getPrimeUpto(n)}")

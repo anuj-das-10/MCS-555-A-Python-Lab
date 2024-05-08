@@ -16,5 +16,5 @@ def firstNPrime(n):
         i += 1
     return primes
 
-
-print(firstNPrime(10))
+n = int(input("Enter the value of n:  "))
+print(f"List of first {n} prime numbers:  {firstNPrime(n)}")

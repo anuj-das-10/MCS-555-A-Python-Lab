@@ -8,4 +8,10 @@ def factors(n):
 def isPrime(n):
     return (factors(n) == [1, n])
 
-print(isPrime(15))
+
+x = int(input("Enter a number:  "))
+
+if isPrime(x):
+    print(f"{x} is a prime number!")
+else:
+    print(f"{x} is not a prime number!")

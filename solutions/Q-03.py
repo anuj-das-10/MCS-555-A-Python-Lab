@@ -4,4 +4,7 @@ def power(x, n):
         result *= x
     return result
 
-print(power(2, 3))
+
+x = 2
+n = 3
+print(f"{x} to the power of {n} is {power(x, n)}")
