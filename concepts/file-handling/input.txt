@@ -1,0 +1,3 @@
+Hello this is content of input.txt file.
+
+Happy coding :-)

@@ -32,3 +32,10 @@
 
 10. Write a python function to check if the given string is Palindrome or not using recursion. 
 - [See Solution](solutions/Q-10.py)✅
+
+
+### Internal Questions
+
+1. Write a python program using map function to cumpute the sum of all the elements in a 2D-Array.
+
+2. Write a python program to compute the sum of all elements in a 2D-Array using List Comprehension.
