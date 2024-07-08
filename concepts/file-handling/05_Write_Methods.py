@@ -1,11 +1,4 @@
-info = """STUDENTS INFO
-ADX001, Anuj Das, Male.
-ADX002, Pragati Dey, Female.
-ADX003, Raj Patel, Male.
-ADX004, Priya Singh, Female.
-ADX005, Vikas Rao, Male.
-ADX006, Neha Gupta, Female.
-"""
+info = ["Hello everyone!\n", "How are you doing?\n", "Follow me on github!"]
 
 with open("python.txt", "w") as file:
     file.writelines(info)

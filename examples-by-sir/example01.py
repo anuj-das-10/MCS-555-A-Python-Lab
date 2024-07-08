@@ -1,4 +1,5 @@
 class Inset:
+    
     def __init__(self):
         self.values = []
 
