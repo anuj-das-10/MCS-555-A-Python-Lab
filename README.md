@@ -131,6 +131,16 @@ def area(shape, *param):
 
 <br />
 
+### Scopes in Python
+
+27. Write a python program to demonstrate the concept of different scopes in python.
+- [Local Scope](concepts/scopes/local_scope.py)✅ 
+- [Global Scope](concepts/scopes/global_scope.py)✅ 
+- [Non-Local Scope](concepts/scopes/nonlocal_scope.py)✅ 
+
+
+<br />
+
 ## Internal Questions
 
 1. Write a python program using map function to cumpute the sum of all the elements in a 2D-Array.
