@@ -1,3 +1,5 @@
+# Example of ADT
+
 class Inset:
     
     def __init__(self):

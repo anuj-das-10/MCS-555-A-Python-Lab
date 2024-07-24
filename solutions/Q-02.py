@@ -1,9 +1,14 @@
-def GCD(m, n):
-    if m < n:
-        m, n = n, m
-    while m % n != 0:
-        m, n = n, m % n
-    return n
+# def GCD(m, n):
+#     if m < n:
+#         m, n = n, m
+#     while m % n != 0:
+#         m, n = n, m % n
+#     return n
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
 
 m = 10
